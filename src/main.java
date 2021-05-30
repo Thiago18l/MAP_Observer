@@ -3,7 +3,6 @@ import domain.Dieta;
 
 public class main {
     public static void main(String[] args) {
-        Dieta personal = new Dieta();
         BalancaDieta balanca = new BalancaDieta();
         Dieta dieta = new Dieta();
         dieta.registerObserver(balanca);
